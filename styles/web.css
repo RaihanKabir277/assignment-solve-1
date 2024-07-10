@@ -272,3 +272,83 @@ padding: 12px 20px 12px 20px;
 .skill-3-inside p{
     margin-bottom: 20px;
 }
+
+/* i need support styles */
+.support-container{
+    width: 1062px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/styles/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+
+    
+}
+.support-inside p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+.support-inside h1{
+    text-align: center;
+}
+.support-field input{
+    width: 408px;
+   height: 37px;
+   box-sizing: border-box;
+   border: 1px solid rgba(13, 19, 33, 0.15);
+   border-radius: 8px;
+   background: rgb(255, 255, 255);  
+}
+.btn3{
+     width: 90px;
+     height: 37px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    text-align: center;
+}
+.support{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* Footer styles */
+.link-container{
+    margin: 0 auto;
+    width: 1262px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    border: 1px solid white;
+
+}
+.link-inside{
+    
+    width: 1062px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.txt p{
+    color: rgb(13, 19, 33);
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.link3{
+    margin-top: 5px;
+}
