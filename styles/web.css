@@ -54,7 +54,6 @@ body{
     height: 1045px;
     margin: 0 auto;
     margin-top: 70px;
-    border: 2px solid green;
 }
 .part-1{
     width: 90%;
@@ -183,7 +182,6 @@ padding: 12px 20px 12px 20px;
     height: 115px;
     margin: 0 auto;
     margin-top: 70px;
-    border: 2px solid green;
 }
 .skill{
     display: flex;
@@ -274,24 +272,25 @@ padding: 12px 20px 12px 20px;
 }
 
 /* i need support styles */
-.support-container{
-    width: 1062px;
-    height: 350px;
-    margin: 0 auto;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('/styles/handshake.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image:rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
-    background-blend-mode: overlay;
 
+     .support-container {
+        width: 1062px;
+        height: 350px;
+        margin: 0 auto;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('/styles/handshake.jpg'),  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: overlay;
+    }
     
-}
+
+
 .support-inside p{
     margin-bottom: 30px;
     margin-top: 20px;
@@ -307,7 +306,10 @@ padding: 12px 20px 12px 20px;
    border: 1px solid rgba(13, 19, 33, 0.15);
    border-radius: 8px;
    background: rgb(255, 255, 255);  
+   font-weight: 500;
+   text-align: center;
 }
+
 .btn3{
      width: 90px;
      height: 37px;
